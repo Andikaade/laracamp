@@ -14,6 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'ensureUserRole' => \App\Http\Middleware\EnsureUserRole::class,
         ]);
+        $middleware->validateCsrfTokens(except: [
+            'payment/success',
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
