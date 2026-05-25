@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+
+class Discount extends Model
+{
+    protected $fillable = [
+        'name',
+        'code',
+        'description',
+        'percentage'
+    ];
+}
