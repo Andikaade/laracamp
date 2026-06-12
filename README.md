@@ -1,4 +1,4 @@
-# Laracamp - Learning Management System & Bootcamp Platform
+# Mastering Laravel - Learning Management System & Bootcamp Platform
 
 Repositori ini berisi proyek aplikasi **Laracamp** yang dibangun sebagai bagian dari program pembelajaran **BWA Class** (BuildWithAngga). Proyek ini berfokus pada pengembangan platform manajemen kelas atau *bootcamp* berbasis web menggunakan ekosistem Laravel.
 
